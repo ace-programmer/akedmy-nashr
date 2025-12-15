@@ -30,6 +30,7 @@ button {
   color: white;
   border: none;
   transition: all .4s ease;
+  
 }
 button:hover{
   opacity: 80%;
@@ -87,6 +88,9 @@ button:active{
 }
 .nav__item:active{
   opacity: 60%;
+}
+.nav__item:last-child{
+  border-bottom: 3px solid transparent
 }
 /* nav end */
 /* hero start */
